@@ -1,0 +1,31 @@
+﻿Test Logs
+
+
+Test Case
+	Expected Output
+	Actual Output
+	Pass/Fail
+	Squatting (Knee Angle>60)
+	“Squatting” detected, sphere turn red, animation pauses at 130
+	Works as expected
+	Pass
+	Standing (Knee Angle<10)
+	“Standing” detected, sphere turn green
+	Works as expected
+	Pass
+	Transition from Squat to Stand
+	Animation resumes when "W" is pressed
+	Works as expected
+	Pass
+	Animation restart with "S"
+	Animator restarts, state updates correctly
+	Works as expected
+	Pass
+	Incorrect detection when knees between 10 and 60
+	No state change
+	Works as expected
+	Pass
+	Performance (Frame rate stability)
+	Smooth execution at 60 FPS
+	Works as expected
+	Pass
